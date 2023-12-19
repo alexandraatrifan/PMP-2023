@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07b9420e-04bc-40c2-afce-cd89e54d3b34" name="Changes" comment="partial">
-      <change afterPath="$PROJECT_DIR$/Lab09/Admission.csv" afterDir="false" />
+    <list default="true" id="07b9420e-04bc-40c2-afce-cd89e54d3b34" name="Changes" comment="lab10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,18 +22,21 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2XqQ83E7LbDB4moDSzMkQEJ4PTY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alexa/PMP-2023&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/alexa/PMP-2023"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\alexa\PMP-2023\Lab09" />
@@ -81,12 +83,30 @@
       <option name="project" value="LOCAL" />
       <updated>1700818591410</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lab9">
+      <option name="closed" value="true" />
+      <created>1701776115082</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701776115082</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lab10">
+      <option name="closed" value="true" />
+      <created>1702815441459</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702815441459</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab07" />
     <MESSAGE value="partial" />
-    <option name="LAST_COMMIT_MESSAGE" value="partial" />
+    <MESSAGE value="lab9" />
+    <MESSAGE value="lab10" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab10" />
   </component>
 </project>

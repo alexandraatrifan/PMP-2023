@@ -35,6 +35,11 @@ plt.scatter(x_Age, x_Pclass, c=[f"C{x}" for x in y])
 plt.xlabel("Age")
 plt.xlabel("Passenger Class")
 
+idx = np.sort(x_Pclass)
+plt.scatter(x_Age, x_Pclass, c=[f"C{x}" for x in y])
+plt.xlabel("Age")
+plt.xlabel("Passenger Class")
+
 #d) Age = 30; Pclass = 2; HDI = 90%
 pass_1 = [(2-x_Pclass_mean)/x_Pclass_std, (30-x_Age_mean)/x_Age_std]
 pm.set_data({"x_shared":[pass_1]}, model=surv_model) # actualizare date model

@@ -8,7 +8,7 @@ def estimate_P(N):
     inside = x > (y ** 2)
     prob = inside.sum() * 4 / N
 
-    error = abs((prob - np.prob) / prob) * 100
+    error = abs((prob - N) / prob) * 100
 
     return error
 

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07b9420e-04bc-40c2-afce-cd89e54d3b34" name="Changes" comment="lab11">
+    <list default="true" id="07b9420e-04bc-40c2-afce-cd89e54d3b34" name="Changes" comment="lab12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +34,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/alexa/PMP-2023"
+    "last_opened_file_path": "C:/Users/alexa/PMP-2023/Examen"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alexa\PMP-2023\Examen" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\alexa\PMP-2023\Lab09" />
     </key>
@@ -107,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702982723956</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lab12">
+      <option name="closed" value="true" />
+      <created>1704799304870</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704799304870</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -116,6 +127,7 @@
     <MESSAGE value="lab9" />
     <MESSAGE value="lab10" />
     <MESSAGE value="lab11" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab11" />
+    <MESSAGE value="lab12" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab12" />
   </component>
 </project>

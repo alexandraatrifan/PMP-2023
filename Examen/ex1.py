@@ -5,10 +5,10 @@ import pymc as pm
 import arviz as az
 
 #a) incarcarea datelor
-supravietuire = pd.read_csv("Titanic.csv")
-y = supravietuire["Survived"]
-x_Pclass = supravietuire["Pclass"].values
-x_Age = supravietuire["Age"].values
+supravietuire = pd.read_csv('Titanic.csv')
+y = supravietuire['Survived']
+x_Pclass = supravietuire['Pclass'].values
+x_Age = supravietuire['Age'].values
 x_Pclass_mean = x_Pclass.mean()
 x_Age_mean = x_Age.mean()
 x_Pclass_std = x_Pclass.std()
@@ -29,7 +29,7 @@ with pm.Model() as surv_model:
     y_pred = pm.Bernoulli("y_pred", p=theta, observed=y)
     idata = pm.sample(2000, return_inferencedata = True)
 
-#c) Age a influentat cel mai mult daca a supravietuit sau nu
+#c) Pclass a influentat cel mai mult daca a supravietuit sau nu
 idx = np.sort(x_Age)
 plt.scatter(x_Age, x_Pclass, c=[f"C{x}" for x in y])
 plt.xlabel("Age")

@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
+import pymc as pm
 
 def estimate_P(N):
     x, y = np.random.uniform(-1, 1, size=(2, N))
@@ -12,12 +13,15 @@ def estimate_P(N):
     return error
 
 runs = 10000 # numarul de iteratii
-N = stats.geom.rvs(p = 0.5, size=1000)
+theta = pm.Geometric("theta")
+N_values = stats.geom.rvs(theta)
 
 #se ruleaza estimate_P(N) de runs ori
-estimates = np.arange(0)
-for _ in range(runs):
-    estimates = np.concatenate((estimates,(estimate_P(N),)))
+for i,N in enumerate(N_values):
+    estimates = np.arange(0)
+    for _ in range(runs):
+        estimates = np.concatenate((estimates,(estimate_P(N),)))
+        print(f"N: {N}; estimates: {estimates}\n")
 
 #b)
 #listele pentru a stoca media si deviatia standard
@@ -26,6 +30,7 @@ std_errors = [0,0,0]
 k = 30
 
 for i in range(k):
+    N = np.random.uniform(N_values)
     estimates = np.arange(0)
     for _ in range(runs):
         estimates = np.concatenate((estimates,(estimate_P(N),)))
